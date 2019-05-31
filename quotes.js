@@ -1,4 +1,6 @@
-export const quotes = [{id: 1, name: "Bruce Lee", quote: "The successful warrior is the average man, with laser-like focus."}, 
+
+
+const quotes = [{id: 1, name: "Bruce Lee", quote: "The successful warrior is the average man, with laser-like focus."}, 
 {id : 2, name: "Lao Tzu", quote:"The journey of a thousand miles begins with one step"},
 {id: 3, name: "Aristotle", quote: "We are what we repeatedly do. Excellence, then, is not an act, but a habit."},
 {id: 4 , name: "Leo Tolstoy", quote: "If you want to be happy, be."},
@@ -39,3 +41,5 @@ export const quotes = [{id: 1, name: "Bruce Lee", quote: "The successful warrior
 {id: 39, name: "Macbeth", quote: "Come what come may, time and the hour runs through the roughest day." },
 {id: 40, name: "Ralph Waldo Emerson", quote: "Many eyes go through the meadow, but few see the flowers in it." },
 {id: 41, name: "Charles Bukowski", quote: "That was all a man needed: hope. It was a lack of hope that discouraged a man." }]
+
+module.exports = quotes;
